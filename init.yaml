@@ -1,6 +1,7 @@
 ---
 repos:
     - repo: https://github.com/honeydipper/honeydipper-config-essentials.git
+      branch: main
 
 includes:
     - daemon.yaml
