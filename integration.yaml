@@ -2,5 +2,5 @@
 systems:
     slack_bot:
         data:
-            token: xoxb-3576775914480-3553008154851-DCkdXbRj1vLHCi6QqwzKlQQl
+            token: xoxb-3576775914480-3553008154851-ybDRJa8uS8pkjpLsYDAcSgV0
             slash_token: 54d12f42cf2a87cc62ca6742beab3f3b65352755
