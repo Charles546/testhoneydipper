@@ -1,5 +1,5 @@
 ---
-system:
+systems:
     slack_bot:
         data:
             token: xoxb-3576775914480-3553008154851-1F8uAr44BJFwe6CWn6bJ9Ytc
