@@ -6,8 +6,19 @@ daemon:
           value: https://github.com/Charles546/testhoneydipper.git
         - name: BRANCH
           value: main
+        - name: SLACK_TOKEN
+          valueFrom:
+              secretKeyRef:
+                  name: slack-secret
+                  key: TOKEN
+        - name: SLASH_TOKEN
+          valueFrom:
+              secretKeyRef:
+                  name: slack-secret
+                  key: SLASH_TOKEN
     image:
-        tag: 2.8.0
+        repository: charleshoney/honeydipper
+        tag: 2.8.1-patched
 drivers:
     redis:
         local: false
