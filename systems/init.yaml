@@ -1,0 +1,8 @@
+---
+systems:
+    local_cluster:
+        extends:
+            - kubernetes
+        data:
+            source:
+                type: local

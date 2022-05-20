@@ -7,3 +7,6 @@ includes:
     - daemon.yaml
     - drivers.yaml
     - integration.yaml
+    - systems/init.yaml
+    - workfows/init.yaml
+    - contexts/init.yaml

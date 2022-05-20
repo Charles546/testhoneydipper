@@ -1,0 +1,9 @@
+---
+workflows:
+    pingpong:
+        call_workflow: run_kubernetes
+        with:
+            system: local_cluster
+            steps:
+                - type: bash
+                  shell: echo "pong! hello world"

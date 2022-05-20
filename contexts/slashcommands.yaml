@@ -1,0 +1,11 @@
+---
+contexts:
+    _slashcommands:
+        slashcommand:
+            slash_notify:
+                - '#even-driven-orchestration-system'
+
+            slashcommands:
+                ping:
+                    workflow: pingpong
+                    usage: echo hello world

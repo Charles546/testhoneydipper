@@ -1,5 +1,6 @@
 ---
 daemon:
+    serviceAccountName: "honeydipper"
     env:
         - name: REPO
           value: https://github.com/Charles546/testhoneydipper.git
