@@ -2,4 +2,4 @@
 system:
     slack_bot:
         token: xoxb-3576775914480-3553008154851-1F8uAr44BJFwe6CWn6bJ9Ytc
-        slack_token: 54d12f42cf2a87cc62ca6742beab3f3b65352755
+        slash_token: 54d12f42cf2a87cc62ca6742beab3f3b65352755
