@@ -3,4 +3,11 @@ daemon:
     env:
         - name: REPO
           value: https://github.com/Charles546/testhoneydipper.git
+        - name: BRANCH
+          value: main
+    image:
+        tag: 2.8.0
+drivers:
+    redis:
+        local: false
 
