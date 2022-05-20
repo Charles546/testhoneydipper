@@ -4,3 +4,10 @@ drivers:
         loglevel: DEBUG
     webhook:
         loglevel: DEBUG
+        Addr: ":8080"
+    redisqueue: &redis
+        connection:
+            Addr: cache:6379
+    redispubsub: *redis
+    api-broadcast: *redis
+    redislock: *redis
