@@ -7,3 +7,5 @@ workflows:
             steps:
                 - type: bash
                   shell: echo "pong! hello world"
+        export:
+            status_detail: "```{{ .ctx.output }}```"
