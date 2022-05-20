@@ -8,5 +8,5 @@ includes:
     - drivers.yaml
     - integration.yaml
     - systems/init.yaml
-    - workfows/init.yaml
+    - workflows/init.yaml
     - contexts/init.yaml
