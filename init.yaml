@@ -1,0 +1,8 @@
+---
+repos:
+    - repo: https://github.com/honeydipper/honeydipper-config-essentials.git
+
+includes:
+    - daemon.yaml
+    - drivers.yaml
+    - integration.yaml

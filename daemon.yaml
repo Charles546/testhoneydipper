@@ -1,0 +1,4 @@
+---
+drivers:
+    daemon:
+        loglevel: DEBUG

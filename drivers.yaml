@@ -1,0 +1,6 @@
+---
+drivers:
+    web:
+        loglevel: DEBUG
+    webhook:
+        loglevel: DEBUG
